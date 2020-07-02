@@ -7,7 +7,7 @@ insatll:
   - npm ci
 
 script:
- - npm test
+ - ng test --watch false --browsers ChromeHeadless
  - npm run build
 
 deploy:
